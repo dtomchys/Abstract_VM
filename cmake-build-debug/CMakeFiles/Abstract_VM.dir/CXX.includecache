@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dtomchys/Abstract_VM/Lexer.cpp
+Lexer.h
+/Users/dtomchys/Abstract_VM/Lexer.h
+
+/Users/dtomchys/Abstract_VM/Lexer.h
+string
+-
+list
+-
+fstream
+-
+iostream
+-
+
+/Users/dtomchys/Abstract_VM/main.cpp
+iostream
+-
+Lexer.h
+/Users/dtomchys/Abstract_VM/Lexer.h
+
