@@ -19,6 +19,8 @@ fstream
 -
 iostream
 -
+regex
+-
 
 /Users/dtomchys/Abstract_VM/main.cpp
 iostream

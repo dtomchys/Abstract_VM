@@ -31,7 +31,14 @@ Lexer::Lexer(std::string &std) {
 }
 
 void Lexer::check(std::string &str) {
+    std::cmatch res;
+    std::regex reg("push (int(8|16|32)|double|float)");
 
+    if(!std::regex_match(str.c_str(), res, reg))
+        throw std::invalid_argument("Invalid command");
+    for (int i = 0; i < res.size(); ++i) {
+        std::cout << res[i] << std::endl;
+    }
 }
 
 std::ifstream &Lexer::get_fd() {
