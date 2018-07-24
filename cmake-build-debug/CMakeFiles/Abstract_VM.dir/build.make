@@ -105,19 +105,123 @@ CMakeFiles/Abstract_VM.dir/Lexer.cpp.o.provides: CMakeFiles/Abstract_VM.dir/Lexe
 CMakeFiles/Abstract_VM.dir/Lexer.cpp.o.provides.build: CMakeFiles/Abstract_VM.dir/Lexer.cpp.o
 
 
+CMakeFiles/Abstract_VM.dir/Parser.cpp.o: CMakeFiles/Abstract_VM.dir/flags.make
+CMakeFiles/Abstract_VM.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dtomchys/Abstract_VM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Abstract_VM.dir/Parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abstract_VM.dir/Parser.cpp.o -c /Users/dtomchys/Abstract_VM/Parser.cpp
+
+CMakeFiles/Abstract_VM.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abstract_VM.dir/Parser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dtomchys/Abstract_VM/Parser.cpp > CMakeFiles/Abstract_VM.dir/Parser.cpp.i
+
+CMakeFiles/Abstract_VM.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abstract_VM.dir/Parser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dtomchys/Abstract_VM/Parser.cpp -o CMakeFiles/Abstract_VM.dir/Parser.cpp.s
+
+CMakeFiles/Abstract_VM.dir/Parser.cpp.o.requires:
+
+.PHONY : CMakeFiles/Abstract_VM.dir/Parser.cpp.o.requires
+
+CMakeFiles/Abstract_VM.dir/Parser.cpp.o.provides: CMakeFiles/Abstract_VM.dir/Parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/Parser.cpp.o.provides.build
+.PHONY : CMakeFiles/Abstract_VM.dir/Parser.cpp.o.provides
+
+CMakeFiles/Abstract_VM.dir/Parser.cpp.o.provides.build: CMakeFiles/Abstract_VM.dir/Parser.cpp.o
+
+
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o: CMakeFiles/Abstract_VM.dir/flags.make
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o: ../VirtMachine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dtomchys/Abstract_VM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o -c /Users/dtomchys/Abstract_VM/VirtMachine.cpp
+
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dtomchys/Abstract_VM/VirtMachine.cpp > CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.i
+
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dtomchys/Abstract_VM/VirtMachine.cpp -o CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.s
+
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.requires:
+
+.PHONY : CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.requires
+
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.provides: CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.provides.build
+.PHONY : CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.provides
+
+CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.provides.build: CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o
+
+
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o: CMakeFiles/Abstract_VM.dir/flags.make
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o: ../FactoryOperand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dtomchys/Abstract_VM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o -c /Users/dtomchys/Abstract_VM/FactoryOperand.cpp
+
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dtomchys/Abstract_VM/FactoryOperand.cpp > CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.i
+
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dtomchys/Abstract_VM/FactoryOperand.cpp -o CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.s
+
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.requires:
+
+.PHONY : CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.requires
+
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.provides: CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.provides.build
+.PHONY : CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.provides
+
+CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.provides.build: CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o
+
+
+CMakeFiles/Abstract_VM.dir/Operand.cpp.o: CMakeFiles/Abstract_VM.dir/flags.make
+CMakeFiles/Abstract_VM.dir/Operand.cpp.o: ../Operand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dtomchys/Abstract_VM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Abstract_VM.dir/Operand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abstract_VM.dir/Operand.cpp.o -c /Users/dtomchys/Abstract_VM/Operand.cpp
+
+CMakeFiles/Abstract_VM.dir/Operand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abstract_VM.dir/Operand.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dtomchys/Abstract_VM/Operand.cpp > CMakeFiles/Abstract_VM.dir/Operand.cpp.i
+
+CMakeFiles/Abstract_VM.dir/Operand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abstract_VM.dir/Operand.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dtomchys/Abstract_VM/Operand.cpp -o CMakeFiles/Abstract_VM.dir/Operand.cpp.s
+
+CMakeFiles/Abstract_VM.dir/Operand.cpp.o.requires:
+
+.PHONY : CMakeFiles/Abstract_VM.dir/Operand.cpp.o.requires
+
+CMakeFiles/Abstract_VM.dir/Operand.cpp.o.provides: CMakeFiles/Abstract_VM.dir/Operand.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/Operand.cpp.o.provides.build
+.PHONY : CMakeFiles/Abstract_VM.dir/Operand.cpp.o.provides
+
+CMakeFiles/Abstract_VM.dir/Operand.cpp.o.provides.build: CMakeFiles/Abstract_VM.dir/Operand.cpp.o
+
+
 # Object files for target Abstract_VM
 Abstract_VM_OBJECTS = \
 "CMakeFiles/Abstract_VM.dir/main.cpp.o" \
-"CMakeFiles/Abstract_VM.dir/Lexer.cpp.o"
+"CMakeFiles/Abstract_VM.dir/Lexer.cpp.o" \
+"CMakeFiles/Abstract_VM.dir/Parser.cpp.o" \
+"CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o" \
+"CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o" \
+"CMakeFiles/Abstract_VM.dir/Operand.cpp.o"
 
 # External object files for target Abstract_VM
 Abstract_VM_EXTERNAL_OBJECTS =
 
 Abstract_VM: CMakeFiles/Abstract_VM.dir/main.cpp.o
 Abstract_VM: CMakeFiles/Abstract_VM.dir/Lexer.cpp.o
+Abstract_VM: CMakeFiles/Abstract_VM.dir/Parser.cpp.o
+Abstract_VM: CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o
+Abstract_VM: CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o
+Abstract_VM: CMakeFiles/Abstract_VM.dir/Operand.cpp.o
 Abstract_VM: CMakeFiles/Abstract_VM.dir/build.make
 Abstract_VM: CMakeFiles/Abstract_VM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dtomchys/Abstract_VM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Abstract_VM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dtomchys/Abstract_VM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Abstract_VM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Abstract_VM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +231,10 @@ CMakeFiles/Abstract_VM.dir/build: Abstract_VM
 
 CMakeFiles/Abstract_VM.dir/requires: CMakeFiles/Abstract_VM.dir/main.cpp.o.requires
 CMakeFiles/Abstract_VM.dir/requires: CMakeFiles/Abstract_VM.dir/Lexer.cpp.o.requires
+CMakeFiles/Abstract_VM.dir/requires: CMakeFiles/Abstract_VM.dir/Parser.cpp.o.requires
+CMakeFiles/Abstract_VM.dir/requires: CMakeFiles/Abstract_VM.dir/VirtMachine.cpp.o.requires
+CMakeFiles/Abstract_VM.dir/requires: CMakeFiles/Abstract_VM.dir/FactoryOperand.cpp.o.requires
+CMakeFiles/Abstract_VM.dir/requires: CMakeFiles/Abstract_VM.dir/Operand.cpp.o.requires
 
 .PHONY : CMakeFiles/Abstract_VM.dir/requires
 

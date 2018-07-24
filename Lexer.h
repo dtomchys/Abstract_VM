@@ -23,10 +23,14 @@ public:
     void    read(std :: ifstream &fd);
     void    check(std :: string &str);
 
-    std :: ifstream& get_fd();
+    std::ifstream&  get_fd();
+    size_t&         get_size();
+    std::string     get_command();
 private:
-    std :: list<std::string> lst;
-    std :: ifstream fd;
+    std::list<std::string>  lst;
+    std::ifstream           fd;
+    size_t                  size;
+    size_t                  cur_command;
 };
 
 

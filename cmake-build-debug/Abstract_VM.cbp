@@ -80,10 +80,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/dtomchys/Abstract_VM/FactoryOperand.cpp">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/FactoryOperand.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/IOperand.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
 		<Unit filename="/Users/dtomchys/Abstract_VM/Lexer.cpp">
 			<Option target="Abstract_VM"/>
 		</Unit>
 		<Unit filename="/Users/dtomchys/Abstract_VM/Lexer.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/Operand.cpp">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/Operand.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/Parser.cpp">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/Parser.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/VirtMachine.cpp">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/VirtMachine.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/eOperandType.h">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/Users/dtomchys/Abstract_VM/eOperationType.h">
 			<Option target="Abstract_VM"/>
 		</Unit>
 		<Unit filename="/Users/dtomchys/Abstract_VM/main.cpp">
